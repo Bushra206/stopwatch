@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(5, 5, 108);
+    
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+   
+}
+h3{
+    font-size: 70px;
+     text-align: center; 
+    font-weight: bold;
+    padding:0px;
+    color: brown;
+}
+
+#container{
+    
+    color:white;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+#start{
+   background-color:rgb(46, 205, 205);
+}
+#stop{
+    background-color: royalblue;
+}
+#reset{
+    background-color: red;
+}
